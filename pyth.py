@@ -18,19 +18,20 @@ else:
     print("incorrect")
 
 
-nswer = input("what is in your pants? ")
+answer = input("what is in your pants? ")
 
-if answer == "poop ":
+if answer == "poop":
 
     print('correct')
+
 else:
     print("incorrect")
 
+answer = input("what is in your butt? ")
 
-nswer = input("where is your head? ")
-
-if answer == "up ur butt ":
+if answer == "poop":
 
     print('correct')
+
 else:
     print("incorrect")
