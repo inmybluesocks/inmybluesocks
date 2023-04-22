@@ -1,10 +1,11 @@
 
 
 class Car:
-    car = "kia"
+    car = "kia" 
 
 
 my_car = Car()
 
 print(my_car.car)
 print(type(my_car))
+print GeneratorExit
