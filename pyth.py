@@ -5,32 +5,41 @@ playing = input("do you want to play? ")
 if playing.lower() != "yes":
     quit()
 
+score = 0
 
 print("ok! let's play :)")
 
-answer = input("what is in your hair? ")
+
+answer = input("what is in your pants? ")
 
 if answer == "poop":
 
     print('correct')
+    score += 1
 
 else:
     print("incorrect")
 
+answer = input("what is in your butt? ")
 
-nswer = input("what is in your pants? ")
-
-if answer == "poop ":
+if answer == "poop":
 
     print('correct')
+    score += 1
+
+
 else:
     print("incorrect")
 
 
-nswer = input("where is your head? ")
+answer = input("what is in your nose? ")
 
-if answer == "up ur butt ":
+if answer == "poop":
 
     print('correct')
+    score += 1
 else:
     print("incorrect")
+
+print("you got " + str(score) + " questions correct")
+print("you got " + str((score / 3) * 100) + "%")
